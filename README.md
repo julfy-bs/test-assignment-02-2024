@@ -2,11 +2,11 @@
 
 ***
 
-Работа выполнена по [макету](https://www.figma.com/file/XRsI3qehHTq3giQJGVANdD/Test-work?node-id=0%3A1). 
+ [Макет](https://www.figma.com/file/XRsI3qehHTq3giQJGVANdD/Test-work?node-id=0%3A1). 
 
 ## Запустить проект
 
-- Клонировать проект - ``
+- Клонировать проект - `git clone git@github.com:julfy-bs/test-assignment-02-2024.git`
 - Установить зависимости `npm install`
 - Запустить сервер для разработки `npm run dev`
 
