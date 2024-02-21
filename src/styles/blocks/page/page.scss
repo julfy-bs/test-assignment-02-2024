@@ -1,0 +1,14 @@
+.page {
+  display: grid;
+  font: 400 16px / 1 var(--font-family-primary);
+  grid-template-areas:
+            "header aside"
+            "main aside"
+            "footer aside";
+  grid-template-columns: 1fr 56px;
+  margin: 0 auto;
+  max-width: var(--page-max-width);
+  position: relative;
+  width: 100%;
+  
+}

@@ -1,0 +1,33 @@
+@import '../styles/helpers/mixins/media';
+
+:root {
+  $color-white: #ffffff;
+  $color-primary: #1f8efa;
+  $color-dark-01: #354052;
+  $color-dark-02: #273142;
+  $color-secondary-07: #ffb300;
+  $page-max-width: 1920px;
+  
+  --header-height: 56px;
+  --background-header: #{$color-dark-02};
+  --color-header: #{$color-white};
+  --background-button: #{$color-primary};
+  --color-button: #{$color-white};
+  --page-max-width: #{$page-max-width};
+  --color-link-active: #{$color-primary};
+  --header-icon-size: 24px;
+  --user-panel-icon-size: 32px;
+  --button-size-s: 40px;
+  --button-size-m: 56px;
+  --notification-counter-size: 14px;
+  --notification-counter-z-index: 1;
+  --helper-button-size: 36px;
+  --helper-button-color: #{$color-secondary-07};
+  
+  --background-user-panel: #{$color-dark-02};
+  --modal-title-color: #{$color-dark-02};
+  
+  --font-family-primary: "Golos UI", sans-serif;
+  --font-family-secondary: "Golos", sans-serif;
+  
+}

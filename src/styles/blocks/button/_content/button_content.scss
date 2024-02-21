@@ -1,0 +1,10 @@
+.button_content {
+  position: relative;
+}
+
+.button_content::after {
+  content: '';
+  position: absolute;
+  color: var(--color-button);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge"
+        http-equiv="X-UA-Compatible">
+  <title>Test assignment</title>
+</head>
+<body>
+<div class="page">
+  <header class="page__header header">
+    <a class="logo"
+       href="./"></a>
+    <button class="page__button button button_color_primary button_content button_content_header button_content_plus button_size_s button_form_rounded"></button>
+    <nav class="navigation">
+      <ul class="page__list navigation__list">
+        <li class="navigation__item navigation__item_active">
+          <a class="page__link navigation__link"
+             href="./">
+            Рабочий стол
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="page__link navigation__link"
+             href="./">
+            Рабочий стол
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="page__link navigation__link"
+             href="./">
+            Рабочий стол
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="page__link navigation__link"
+             href="./">
+            Рабочий стол
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="page__link navigation__link"
+             href="./">
+            Рабочий стол
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="page__link navigation__link"
+             href="./">
+            Рабочий стол
+          </a>
+        </li>
+        <li class="navigation__item">
+          <button class="page__button button button_content button_content_header button_content_etc button_size_s"></button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page__main">
+    <!--   Пример использования Chart.js   -->
+    <section class="chart chart-doughnut">
+      <canvas id="doughnut"></canvas>
+    </section>
+
+    <section class="chart chart-doughnut">
+      <canvas id="doughnut"></canvas>
+    </section>
+
+  </main>
+  <aside class="user-panel">
+    <button class="page__button button">
+      <picture>
+        <source media="(min-width: 481px)"
+                srcset="./assets/content/avatar.jpg"
+                type="image/svg+xml" />
+        <img
+          alt="Аватар пользователя."
+          class="page__image user-panel__image"
+          src="./assets/content/avatar.jpg"
+        />
+      </picture>
+    </button>
+    <nav class="user-panel__menu">
+      <ul class="page__list">
+        <li class="user-panel__item">
+          <button class="page__button button button_content button_content_user-panel button_size_m button_content_note"
+                  id="note">
+          </button>
+        </li>
+        <li class="user-panel__item">
+          <button class="page__button button button_content button_content_user-panel button_size_m button_content_message user-panel__item_notification_active">
+          </button>
+        </li>
+        <li class="user-panel__item">
+          <button class="page__button button button_content button_content_user-panel button_size_m button_content_notification user-panel__item_notification_active">
+          </button>
+        </li>
+        <li class="user-panel__item">
+          <button class="page__button button button_content button_content_user-panel button_size_m button_content_timer">
+          </button>
+        </li>
+        <li class="user-panel__item">
+          <button class="page__button button button_content button_content_user-panel button_size_m button_content_book">
+          </button>
+        </li>
+        <li class="user-panel__item">
+          <button class="page__button button button_content button_content_user-panel button_size_m button_content_settings"></button>
+        </li>
+      </ul>
+
+      <div class="helper">
+        <button class="page__button button button_content  button_size_m button_content_help helper__button"></button>
+      </div>
+    </nav>
+  </aside>
+  <section class="modal"
+           tabindex="-1">
+    <header class="modal__header">
+      <h3 class="page__title">Мои дела</h3>
+      <button class="page__button button button_size_m modal__close"></button>
+    </header>
+  </section>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</html>

@@ -1,0 +1,8 @@
+.navigation__link {
+  transition: opacity .25s ease;
+  align-self: center;
+}
+
+.navigation__link:hover {
+  opacity: .75;
+}

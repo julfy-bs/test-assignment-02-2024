@@ -1,0 +1,13 @@
+.logo {
+  background: url('../assets/icons/logo.svg');
+  height: 32px;
+  max-height: 32px;
+  max-width: 121px;
+  width: 100%;
+  cursor: pointer;
+  transition: opacity .25s ease;
+}
+
+.logo:hover {
+  opacity: .75;
+}

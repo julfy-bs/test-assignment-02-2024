@@ -1,0 +1,14 @@
+.user-panel__item_notification_active {
+  position: relative;
+}
+
+.user-panel__item_notification_active::before {
+  content: '';
+  height: var(--notification-counter-size);
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url('../assets/icons/counter.svg');
+  width: var(--notification-counter-size);
+  z-index: var(--notification-counter-z-index);
+}

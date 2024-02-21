@@ -1,0 +1,15 @@
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  background: #ffffff;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 3px 13px 0 rgba(27, 36, 49, 0.05), 0 7px 10px 0 rgba(27, 36, 49, 0.15);
+  box-sizing: border-box;
+  height: 100vh;
+  min-width: 360px;
+  position: fixed;
+  right: 56px;
+  top: 0;
+  width: 360px;
+  pointer-events: none;
+}

@@ -1,0 +1,6 @@
+.button_content_header::after {
+  top: calc(50% - var(--header-icon-size) / 2);
+  left: calc(50% - var(--header-icon-size) / 2);
+  width: var(--header-icon-size);
+  height: var(--header-icon-size);
+}

@@ -1,0 +1,7 @@
+.user-panel {
+  grid-area: aside;
+  background-color: var(--background-user-panel);
+  min-height: 100vh;
+  position: sticky;
+  max-width: 56px;
+}

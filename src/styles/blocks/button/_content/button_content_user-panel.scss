@@ -1,0 +1,6 @@
+.button_content_user-panel::after {
+  top: calc(50% - var(--user-panel-icon-size) / 2);
+  left: calc(50% - var(--user-panel-icon-size) / 2);
+  width: var(--user-panel-icon-size);
+  height: var(--user-panel-icon-size);
+}

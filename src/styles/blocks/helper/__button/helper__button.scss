@@ -1,0 +1,16 @@
+.helper__button {
+  background-color: var(--helper-button-color);
+  border-radius: 50%;
+  width: var(--helper-button-size);
+  height: var(--helper-button-size);
+}
+
+.helper__button::after {
+  box-sizing: border-box;
+  height: 22px;
+  left: calc(50% - 22px / 2);
+  padding: 8px;
+  top: calc(50% - 22px / 2);
+  width: 22px;
+  margin: auto 0;
+}
